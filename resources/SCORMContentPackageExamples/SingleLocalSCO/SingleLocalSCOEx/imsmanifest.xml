@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<manifest identifier="SingleLocalSCOManifest" version="1.1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+   <organizations/>
+
+   <resources>
+      <resource identifier="R_A1" type="webcontent"
+        adlcp:scormtype="sco" href="sco06.htm">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>sco06.xml</adlcp:location>
+         </metadata>
+         <file href="sco06.htm" />
+         <file href="scripts/APIWrapper.js" />
+         <file href="scripts/AUFunctions.js" />
+         <dependency identifierref="R_A4" />
+         <dependency identifierref="R_A5" />
+         <dependency identifierref="R_A6" />
+      </resource>
+
+      <resource identifier="R_A4" type="webcontent"
+        adlcp:scormtype="asset" href="pics/distress_sigs.jpg">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>pics/distress_sigs.xml</adlcp:location>
+         </metadata>
+         <file href="pics/distress_sigs.jpg" />
+      </resource>
+
+      <resource identifier="R_A5" type="webcontent"
+        adlcp:scormtype="asset" href="pics/distress_sigs_add.jpg">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>pics/distress_sigs_add.xml</adlcp:location>
+         </metadata>
+         <file href="pics/distress_sigs_add.jpg" />
+      </resource>
+
+      <resource identifier="R_A6" type="webcontent"
+        adlcp:scormtype="asset" href="pics/nav_aids.jpg">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>pics/nav_aids.xml</adlcp:location>
+         </metadata>
+         <file href="pics/nav_aids.jpg" />
+      </resource>
+
+   </resources>
+</manifest>

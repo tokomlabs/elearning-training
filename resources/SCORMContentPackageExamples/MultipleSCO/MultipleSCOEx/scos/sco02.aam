@@ -1,0 +1,8 @@
+ver	0	5
+get	.
+put	DOWNLOAD
+seg	all	sc020000.aas	0	16235
+seg	all	sc020001.aas	16235	448
+# HTML_PARAMS: WIDTH=640 HEIGHT=480 BGCOLOR=FFFFFF
+opt	all	BypassSecurityDialog=TRUE
+opt	all	UniqueID=26996649

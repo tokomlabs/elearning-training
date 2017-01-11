@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<manifest identifier="SingleLocalSCOSingleAssetManifest" version="1.1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+   <organizations/>
+
+   <resources>
+
+      <resource identifier="R_A1" type="webcontent"
+        adlcp:scormtype="sco" href="sco06.htm">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>sco06.xml</adlcp:location>
+         </metadata>
+         <file href="sco06.htm" />
+
+         <file href="pics/distress_sigs.jpg">
+            <metadata>
+               <schema>ADL SCORM</schema>
+               <schemaversion>1.2</schemaversion>
+               <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+                  <general>
+                     <title>
+                        <langstring>Navigation Distress Signals</langstring>
+                     </title>
+                     <catalogentry>
+                        <catalog>ADL Sample Courses Catalog</catalog>
+                        <entry>
+                           <langstring>distress_sigs.jpg</langstring>
+                        </entry>
+                     </catalogentry>
+                     <language>en</language>
+                     <description>
+                        <langstring>DISTRESS SIGNALS (72 COLREGS) </langstring>
+                     </description>
+                     <keyword>
+                        <langstring>vessel</langstring>
+                     </keyword>
+                     <keyword>
+                        <langstring>navigation</langstring>
+                     </keyword>
+                     <keyword>
+                        <langstring>distress</langstring>
+                     </keyword>
+                     <keyword>
+                        <langstring>signals</langstring>
+                     </keyword>
+                     <aggregationlevel>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">1</langstring>
+                        </value>
+                     </aggregationlevel>
+                  </general>
+                  <lifecycle>
+                     <version>
+                        <langstring>1.1</langstring>
+                     </version>
+                     <status>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">Final</langstring>
+                        </value>
+                     </status>
+                     <contribute>
+                        <role>
+                           <source>
+                              <langstring xml:lang="x-none">LOMv1.0</langstring>
+                           </source>
+                           <value>
+                              <langstring xml:lang="x-none">Graphical Designer</langstring>
+                           </value>
+                        </role>
+                        <centity>
+                           <vcard>BEGIN:vCard ORG:ADL Co-Lab END:vCard</vcard>
+                        </centity>
+                        <date>
+                           <datetime>2000-01-27</datetime>
+                           <description>
+                              <langstring>The date this xml instance was created</langstring>
+                           </description>
+                        </date>
+                     </contribute>
+                  </lifecycle>
+                  <metametadata>
+                     <metadatascheme>ADL SCORM 1.2</metadatascheme>
+                  </metametadata>
+                  <technical>
+                     <format>image/jpeg</format>
+                     <size>31286</size>
+                     <location type="URI">pics/distress_sigs.jpg</location>
+                  </technical>
+                  <educational>
+                     <learningresourcetype>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">Figure</langstring>
+                        </value>
+                     </learningresourcetype>
+                  </educational>
+                  <rights>
+                     <cost>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">no</langstring>
+                        </value>
+                     </cost>
+                     <copyrightandotherrestrictions>
+                        <source>
+                           <langstring xml:lang="x-none">LOMv1.0</langstring>
+                        </source>
+                        <value>
+                           <langstring xml:lang="x-none">no</langstring>
+                        </value>
+                     </copyrightandotherrestrictions>
+                     <description>
+                        <langstring>U.S. Coast Guard, Commandant Instruction M1667202C</langstring>
+                     </description>
+                  </rights>
+               </lom>
+            </metadata>
+         </file>
+
+         <!-- An asset that is not described by meta-data       -->
+         <file href="pics/distress_sigs_add.jpg"/>
+
+         <!-- An asset that is not described by meta-data       -->
+         <file href="pics/nav_aids.jpg"/>
+
+         <file href="scripts/APIWrapper.js" />
+         <file href="scripts/AUFunctions.js" />
+      </resource>
+   </resources>
+</manifest>

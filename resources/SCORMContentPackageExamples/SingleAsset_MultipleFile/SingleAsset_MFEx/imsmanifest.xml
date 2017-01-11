@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<manifest identifier="SingleAsset_MulitipleFileManifest" version="1.1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+   <organizations/>
+
+   <resources>
+
+      <!-- The file name, sco02.htm, may indicate that this is a SCO -->
+      <!-- However, for demonstration purposes, this is not a SCO    -->
+      <!-- The learning resource being mentioned does not implement  -->
+      <!-- the Run-Time Environment.                                 -->
+      <resource identifier="R_A4" type="webcontent"
+        adlcp:scormtype="asset" href="sco02.htm">
+
+     <!-- Asset                                 -->
+     <!-- This meta-data describes the Asset in -->
+     <!-- a context independent manner.         -->
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>sco02.xml</adlcp:location>
+         </metadata>
+         <file href="sco02.htm" />
+         <file href="sco02.aam" />
+         <file href="sc020000.aas" />
+         <file href="sc020001.aas" />
+         <file href="winapi.u32" />
+         <file href="winapi.ucd" />
+      </resource>
+
+   </resources>
+</manifest>
